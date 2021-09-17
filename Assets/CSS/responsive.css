@@ -31,7 +31,13 @@
 	grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
 }
 .about-single-counter{
-	padding: 2rem;
+	padding: 1rem;
+}
+    .about-single-counter{
+	width: 10rem;
+}
+.about-single-counter h2 span{
+	right: 1rem;
 }
 }
 

@@ -2,6 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	color: var(--theme-color);
 }
 
 :root {
@@ -208,6 +209,7 @@ body{
 
 .about-right h3{
 	font-size: 3rem;
+	font-weight: 700;
 }
 
 .about-right h3 span{
@@ -215,13 +217,14 @@ body{
 }
 /* About Us */
 .about-counter{
-	grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
 }
 .about-single-counter{
 	box-shadow: #959da533 0px 8px 24px;
-	padding: 2rem 4rem;
+	padding: 2rem 3rem;
 	transition: .2s;
 	border-radius: 5px;
+	width: 15rem;
 }
 
 .about-single-counter:hover{
@@ -239,7 +242,7 @@ body{
 .about-single-counter h2 span{
 	position: absolute;
 	top: -1rem;
-	right: 0;
+	right: 1.5rem;
 	font-weight: 400 !important;
 	color: var(--theme-color--two);
 }
