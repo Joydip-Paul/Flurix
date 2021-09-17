@@ -6,8 +6,8 @@
    font-family: 'Roboto', sans-serif;
 }
 :root {
-   --theme-color: #055052;
-   --theme-color--two: #FF4C29;
+   --theme-color: #11324D;
+   --theme-color--two: #F0202E;
 }
 
 .navbar-toggler,
@@ -37,4 +37,54 @@
   justify-items: center;
   gap: 1rem;
   row-gap: 1rem;
+}
+
+
+.title{
+   font-size: 2.5rem;
+	font-weight: 700;
+	margin: .5rem 0;
+}
+
+.title-span{
+   color: var(--theme-color--two);
+}
+
+.top-title{
+	color: var(--theme-color--two);
+	font-size: 1rem;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    border: none;
+    color: #fff;
+    background-color: #F0202E;
+}
+
+.accordion-button.collapsed {
+   color: #11324D;
+}
+
+.accordion-button.collapsed::after {
+  background-image: url("/Assets/Images/plus.png");
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("/Assets/Images/minus.png");
+}
+
+.theme-btn{
+   text-decoration: none;
+   padding: 10px 20px;
+   color: #fff;
+   background-color: var(--theme-color--two);
+   border-radius: 5px;
+   font-size: 1rem;
+   border: 1px solid var(--theme-color--two);
+   transition: .5s ease-in-out;
+}
+.theme-btn:hover{
+   color: var(--theme-color);
+   background: none;
 }

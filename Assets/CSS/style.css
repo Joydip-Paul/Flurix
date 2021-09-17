@@ -277,3 +277,103 @@ body{
 .about-card-three{
 	background-color: #FFE3E3;
 }
+
+/* service */
+.right-service-card{
+	grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+.card-inner h4{
+	margin-top: 20px;
+}
+.card-inner .thikMark-icon{
+	background: #fff;
+	padding: 10px;
+	font-size: 3.5rem;
+	border-radius: 50%;
+	box-shadow: #959da533 0px 8px 24px;
+	transition: .5s;
+	color: var(--theme-color--two);
+}
+
+.card-inner:hover .thikMark-icon{
+	background-color: var(--theme-color--two);
+	color: #fff;
+}
+
+/* pricing */
+.pricing{
+	background-color: #F3F1F5;
+}
+.pricing-card{
+	background-color: #fff;
+	color: var(--theme-color);
+	margin: 10px;
+	padding: 3rem 4rem;
+	text-align: center;
+	position: relative;
+	transition: .5s;
+}
+
+.pricing-card h4 span{
+	transition: .5s;
+}
+
+.pricing-card p{
+	margin: 2rem 0;
+}
+
+.pricing-card:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 4px;
+	width: 100%;
+	background-color: var(--theme-color--two);
+	transition: .5s;
+}
+
+.pricing-card:hover{
+	background-color: var(--theme-color--two);
+	color: #fff;
+}
+
+.pricing-card h4{
+	border: 1px solid #e2e2e2;
+	border-radius: 25px;
+	padding: 10px;
+}
+
+.pricing-card h4 span{
+	font-size: 14px;
+}
+
+.pricing-card:hover h4 span{
+	color: #fff;
+}
+
+.pricing-card:hover a{
+	background-color: #ffff;
+	color: var(--theme-color--two);
+}
+/* pricing */
+
+/* Footer */
+.footer-area{
+	background-color: var(--theme-color);
+	color: #fff;
+	padding: 2rem 0;
+}
+
+.single-footer ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.single-footer ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+/* Footer */
