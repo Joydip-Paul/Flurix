@@ -21,9 +21,9 @@
 	padding: 8px;
 } */
 
-.navbar-nav{
+/* .navbar-nav{
     margin-left: 2rem !important;
-}
+} */
 
 /* .navbar-nav li{
 	margin: 0 .5rem;
@@ -63,10 +63,6 @@
 .top-footer{
 	padding: 3rem;
 }
-.dropdown-menu{
-   background-color: #f3f3f3;
-}
-
 }
 
 @media only screen and (max-width: 768px) {

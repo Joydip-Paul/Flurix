@@ -1,19 +1,14 @@
-// (function ($) {
-//     $(function () {
-//         $('nav ul li > a:not(:only-child)').click(function (e) {
-//             $(this).siblings('.nav-dropdown').toggle();
-//             $('.nav-dropdown').not($(this).siblings()).hide();
-//             e.stopPropagation();
-//         });
-//         $('html').click(function () {
-//             $('.nav-dropdown').hide();
-//         });
-//     });
-//     document.querySelector('#nav-toggle').addEventListener('click', function () {
-//         this.classList.toggle('active');
-//     });
-//     $('#nav-toggle').click(function () {
-//         $('nav ul').toggle();
-//     });
-// })(jQuery);
-
+document.addEventListener("DOMContentLoaded", function () {
+    window.addEventListener('scroll', function () {
+        if (window.scrollY > 50) {
+            document.getElementById('navbar_top').classList.add('bg-transparent');
+            // add padding top to show content behind navbar
+            navbar_height = document.querySelector('.navbar').offsetHeight;
+            document.body.style.paddingTop = navbar_height + 'px';
+        } else {
+            document.getElementById('navbar_top').classList.remove('bg-transparent');
+            // remove padding top from body
+            document.body.style.paddingTop = '0';
+        }
+    });
+});
