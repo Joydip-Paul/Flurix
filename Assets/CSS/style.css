@@ -16,7 +16,11 @@ body{
 }
 
 #nav2{
-	background-color: #011d33c5;
+	background-color: #011d33;
+}
+
+#sada-bar{
+	color: #fff;
 }
 
 .shadow-custom{
@@ -262,6 +266,10 @@ body{
 	background-color: #FFE3E3;
 }
 
+.about-card-four{
+	background-color: #E8F6EF;
+}
+
 /* service */
 .right-service-card{
 	grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
@@ -502,3 +510,9 @@ body{
 }
 
 /* About-Us */
+
+/* Contact-Us */
+.contact-us-area{
+	background-color: #D7E9F7;
+}
+/* Contact-Us */

@@ -179,3 +179,8 @@
    background-color: #D7E9F7;
 }
 
+.form-control, .btn {
+    box-shadow: none !important;
+    outline: none !important;
+    border: 1px solid #11324D;
+}
