@@ -94,31 +94,7 @@ body{
 /* Home One Hero  */
 .hero-left small{
 	font-size: 1.5rem;
-	position: relative;
 	color: var(--theme-color--two);
-}
-
-.hero-left small::before{
-	content: "";
-	position: absolute;
-	left: 0;
-	bottom: -4px;
-	background-color: var(--theme-color);
-	height: 2px;
-	width: 100%;
-	animation: leftToRight 1s infinite;
-}
-
-@keyframes leftToRight{
-	0%{
-		transform: translateX(0px);
-	}
-	50%{
-		transform: translateX(10px);
-	}
-	100%{
-		transform: translateX(0px);
-	}
 }
 
 .hero-left h1{
@@ -175,6 +151,7 @@ body{
 	padding: 2rem 1rem 1rem 1rem;
 	position: relative;
 	transition: .5s ease-in-out;
+	background-color: #fff;
 }
 
 .single-service-card::before{
@@ -364,6 +341,7 @@ body{
 	background-color: var(--theme-color);
 	color: #fff;
 	padding: 2rem 0;
+	position: relative;
 }
 
 .single-footer{
@@ -411,4 +389,78 @@ body{
 	color: #fff;
 	background-color: var(--theme-color--two);
 }
+
+.top-footer{
+	position: absolute;
+	padding: 5rem;
+	width: 80%;
+	background-color: #fff;
+	top: -20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 5px;
+}
+
+.top-footer::after{
+	content: "";
+	position: absolute;
+	background-color: #051929b4;
+	height: 2rem;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+}
+
+.footer-box{
+	color: var(--theme-color);
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
 /* Footer */
+
+/* About-Us */
+
+.about-banner{
+	width: 100%;
+	background-size: cover;
+	background-image: url('/Assets/Images/about-usBanner.jpg');
+	background: linear-gradient(#0b0069,#0d0031);
+	height: 100vh;
+	position: relative;
+}
+.About-Us{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.About-Us small{
+	font-size: 2rem;
+}
+
+.About-Us h1{
+	font-size: 5rem;
+}
+
+.About-Us ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.About-Us .right-arrow a{
+	margin: 0 .5rem;
+	color: var(--theme-color--two);
+}
+
+.About-Us ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.5rem;
+}
+
+/* About-Us */

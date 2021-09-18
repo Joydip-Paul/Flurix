@@ -10,6 +10,24 @@
    padding: 8px 12px;
    font-size: .6rem;
 }
+/* .search input{
+	padding: 8px 12px;
+	width: 80%;
+}
+
+.search a{
+	right: 1rem;
+    background-color: #f3f3f3;
+	padding: 8px;
+} */
+
+.navbar-nav{
+    margin-left: 2rem !important;
+}
+
+/* .navbar-nav li{
+	margin: 0 .5rem;
+} */
 }
 
 @media only screen and (max-width: 992px) {
@@ -42,6 +60,13 @@
 .about-single-counter h2 span{
 	right: 1rem;
 }
+.top-footer{
+	padding: 3rem;
+}
+.dropdown-menu{
+   background-color: #f3f3f3;
+}
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -51,12 +76,19 @@
     .navbar-nav li{
         margin: .5rem 0;
     }
-    .dropdown-menu{
-        /* background-color: red; */
-    }
+
     .dropdown-menu li a{
         margin: .5rem 0;
     }
+    .footer-box{
+        justify-content: center;
+        text-align: center;
+    }
+    .top-footer{
+	top: -5%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
 }
 
 @media only screen and (max-width: 600) {
