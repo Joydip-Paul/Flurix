@@ -457,6 +457,7 @@ body{
 .copyright p a{
 	text-decoration: none;
 	color: var(--theme-color--two);
+	font-weight: 400;
 }
 
 /* Footer */

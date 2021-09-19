@@ -91,6 +91,10 @@
     padding: 0 1rem;
 }
 
+.copyright{
+    flex-direction: column;
+}
+
 }
 
 @media only screen and (max-width: 600) {
