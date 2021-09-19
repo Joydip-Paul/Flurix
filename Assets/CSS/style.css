@@ -8,6 +8,7 @@ body{
 :root {
    --theme-color: #051929;
    --theme-color--two: #F0202E;
+   --box-shadow: box-shadow: #959da533 0px 8px 24px;
 }
 
 .navbar{
@@ -233,6 +234,10 @@ body{
 	right: 1.5rem;
 	font-weight: 400 !important;
 	color: var(--theme-color--two);
+}
+
+.about-single-counter:hover h2 span{
+	color: #fff;
 }
 
 .about-single-counter p{
@@ -516,3 +521,34 @@ body{
 	background-color: #D7E9F7;
 }
 /* Contact-Us */
+
+/* blog */
+.blog-card{
+	border: 1px solid #eee;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	transition: .5s ease-in-out;
+}
+
+.blog-card:hover{
+	box-shadow: #959da533 0px 8px 24px;
+}
+
+.tags{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #eee;
+	padding: 1rem .5rem;
+}
+
+.tags a{
+	background-color: #fff;
+	margin: 10px;
+	padding: .5rem;
+	transition: .5s;
+}
+
+.tags a:hover{
+	background-color: var(--theme-color--two);
+	color: #fff;
+}
+/* blog */

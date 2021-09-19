@@ -10,6 +10,11 @@
    --theme-color--two: #F0202E;
 }
 
+a{
+   text-decoration: none;
+   color: #11324D;
+}
+
 .navbar-toggler,
 .navbar-toggler:focus,
 .navbar-toggler:active,
@@ -23,7 +28,7 @@
    padding: 5px;
 }
 
-.navbar-nav > li > .dropdown-menu a:link,
+/* .navbar-nav > li > .dropdown-menu a:link, */
 .navbar-nav > li > .dropdown-menu a:hover { 
    background: none;
    color: #F0202E;

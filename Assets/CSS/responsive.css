@@ -85,6 +85,12 @@
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
+
+.footer-box h4{
+    font-size: 1rem; 
+    padding: 0 1rem;
+}
+
 }
 
 @media only screen and (max-width: 600) {
