@@ -1,14 +1,28 @@
-// document.addEventListener("DOMContentLoaded", function () {
-//     window.addEventListener('scroll', function () {
-//         if (window.scrollY > 50) {
-//             document.getElementById('navbar_top').classList.add('bg-transparent');
-//             // add padding top to show content behind navbar
-//             navbar_height = document.querySelector('.navbar').offsetHeight;
-//             document.body.style.paddingTop = navbar_height + 'px';
-//         } else {
-//             document.getElementById('navbar_top').classList.remove('bg-transparent');
-//             // remove padding top from body
-//             document.body.style.paddingTop = '0';
-//         }
-//     });
-// });
+$(window).on("load resize", function () {
+
+    var counters = $(".count");
+    var countersQuantity = counters.length;
+    var counter = [];
+
+    for (i = 0; i < countersQuantity; i++) {
+        counter[i] = parseInt(counters[i].innerHTML);
+    }
+
+    var count = function (start, value, id) {
+        var localStart = start;
+        setInterval(function () {
+            if (localStart < value) {
+                localStart++;
+                counters[id].innerHTML = localStart;
+            }
+        }, 4);
+    }
+
+    for (j = 0; j < countersQuantity; j++) {
+        count(0, counter[j], j);
+    }
+});
+
+
+
+
