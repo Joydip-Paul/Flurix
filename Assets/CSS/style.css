@@ -465,8 +465,9 @@ body{
 
 .about-banner{
 	width: 100%;
-	background-size: cover;
-	background-image: url('/Assets/Images/hero1.jpg');
+	background: url('/Assets/Images/hero1.jpg');
+		background-size: cover;
+	background-repeat: no-repeat;
 	height: 100vh;
 	position: relative;
 }
@@ -474,7 +475,6 @@ body{
 .about-banner:before{
 	content: "";
 	position: absolute;
-	/* background-color: #011d33b4; */
 	background-image: linear-gradient(#001220b4, #002749b4);
 	width: 100%;
 	height: 100vh;
