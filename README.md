@@ -1,2 +1,2 @@
 # Flurix site
-Live Site: https://joydip-paul.github.io/Flurix/index.html
+Live Site: https://furnix-jd.netlify.app/
