@@ -1,2 +1,2 @@
 # Flurix site
-Live Site: [https://furnix-jd.netlify.app/](https://joydip-paul.github.io/Flurix/) 
+Live Site: (https://joydip-paul.github.io/Flurix/) 
